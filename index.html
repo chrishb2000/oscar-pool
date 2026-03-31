@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Multi-language SEO Metadata -->
+    <title>Oscar's Pool Service Inc - Professional Pool Maintenance & Cleaning in Van Nuys, CA</title>
+    <meta name="description" content="Professional pool service and maintenance in Van Nuys, CA. Weekly cleaning, filter cleaning, chemical balancing, and pool repairs. Serving Van Nuys, North Hollywood, Sherman Oaks, Studio City, Burbank, and Encino.">
+    <meta name="keywords" content="pool service, pool cleaning, pool maintenance, pool repair, Van Nuys, North Hollywood, Sherman Oaks, Studio City, Burbank, Encino, pool cleaner, spa service">
+    <meta name="author" content="Oscar's Pool Service Inc">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Oscar's Pool Service Inc - Professional Pool Maintenance">
+    <meta property="og:description" content="Professional pool service and maintenance in Van Nuys, CA. Weekly cleaning, filter cleaning, chemical balancing, and pool repairs.">
+    <meta property="og:image" content="images/oscars-pool-service-logo.png">
+    <meta property="og:url" content="http://www.oscarspoolservice.com/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_US">
+    
+    <!-- Spanish Metadata -->
+    <meta property="og:title" lang="es" content="Oscar's Pool Service Inc - Mantenimiento Profesional de Piscinas">
+    <meta property="og:description" lang="es" content="Servicio profesional de piscinas en Van Nuys, CA. Limpieza semanal, limpieza de filtros, balanceo químico y reparaciones de piscinas.">
+    
+    <!-- Alternate Language -->
+    <link rel="alternate" hreflang="en" href="http://www.oscarspoolservice.com/">
+    <link rel="alternate" hreflang="es" href="http://www.oscarspoolservice.com/?lang=es">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://www.oscarspoolservice.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="images/oscars-pool-service-logo.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="images/oscars-pool-service-logo.png" alt="Oscar's Pool Service Logo">
+                <span class="logo-text">Oscar's Pool Service</span>
+            </a>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-en="Home" data-es="Inicio">Home</a></li>
+                <li><a href="#about" class="nav-link" data-en="About Us" data-es="Quiénes Somos">About Us</a></li>
+                <li><a href="#services" class="nav-link" data-en="Services" data-es="Servicios">Services</a></li>
+                <li><a href="#portfolio" class="nav-link" data-en="Portfolio" data-es="Portafolio">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-es="Contacto">Contact</a></li>
+                <li class="lang-buttons">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="es">ES</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <section id="home" class="hero">
+        <!-- Floating Bubbles -->
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        
+        <div class="carousel">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide active">
+                    <img src="images/oscar-pool-maintenance.png" alt="Beautiful swimming pool - Oscar's Pool Service">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/oscar-pool-landscape.png" alt="Professional pool cleaning service">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/oscar-pool-spa.png" alt="Spa and pool maintenance">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/oscar-pool-remodeling.png" alt="Pool remodeling and construction">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/oscar-pool-saltwater.png" alt="Saltwater pool service">
+                    <div class="slide-overlay"></div>
+                </div>
+            </div>
+            
+            <button class="carousel-btn prev-btn" id="prevBtn" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-btn next-btn" id="nextBtn" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <div class="carousel-indicators" id="carouselIndicators">
+                <button class="indicator active" data-slide="0"></button>
+                <button class="indicator" data-slide="1"></button>
+                <button class="indicator" data-slide="2"></button>
+                <button class="indicator" data-slide="3"></button>
+                <button class="indicator" data-slide="4"></button>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="Oscar's Pool Service Remodeling & Construction" data-es="Oscar's Pool Service Remodeling y Construcción">Oscar's Pool Service Remodeling & Construction</h1>
+            <p class="hero-subtitle" data-en="Your satisfaction is our goal" data-es="Su satisfacción es nuestra meta">Your satisfaction is our goal</p>
+            <a href="#contact" class="btn btn-primary" data-en="Get Free Estimate" data-es="Obtenga Estimado Gratis">Get Free Estimate</a>
+        </div>
+        
+        <div class="scroll-indicator">
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="About Us" data-es="Quiénes Somos">About Us</h2>
+                <div class="title-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro" data-en="Welcome to Oscar's Pool Service Remodeling & Construction. Throughout the years we've earned the trust of our customers with dedication in what we do." data-es="Bienvenido a Oscar's Pool Service Remodeling & Construction. A lo largo de los años hemos ganado la confianza de nuestros clientes con dedicación en lo que hacemos.">Welcome to Oscar's Pool Service Remodeling & Construction. Throughout the years we've earned the trust of our customers with dedication in what we do.</p>
+                    
+                    <p data-en="At Oscar's Pool Service our goal is your satisfaction. We offer many reliable brands of pool equipment installations. We want your pool to be a place where you can go and relax on a beautiful sunny day or a dark cool night. Whether it's winter, summer, spring or fall your pool should be beautiful anytime." data-es="En Oscar's Pool Service nuestra meta es su satisfacción. Ofrecemos muchas marcas confiables de instalaciones de equipos para piscinas. Queremos que su piscina sea un lugar donde pueda ir y relajarse en un hermoso día soleado o una noche fresca y oscura. Ya sea invierno, verano, primavera u otoño, su piscina debe verse hermosa en cualquier momento.">At Oscar's Pool Service our goal is your satisfaction. We offer many reliable brands of pool equipment installations. We want your pool to be a place where you can go and relax on a beautiful sunny day or a dark cool night. Whether it's winter, summer, spring or fall your pool should be beautiful anytime.</p>
+                    
+                    <p data-en="With proper chemistry in your water you can really enjoy a very good long swim. We work and are familiar with these products:" data-es="Con la química adecuada en su agua, realmente puede disfrutar de un muy buen nado largo. Trabajamos y estamos familiarizados con estos productos:">With proper chemistry in your water you can really enjoy a very good long swim. We work and are familiar with these products:</p>
+                    
+                    <ul class="brands-list">
+                        <li><i class="fas fa-check-circle"></i> Jandy</li>
+                        <li><i class="fas fa-check-circle"></i> Hayward</li>
+                        <li><i class="fas fa-check-circle"></i> Pentair</li>
+                        <li><i class="fas fa-check-circle"></i> Sta-Rite</li>
+                        <li><i class="fas fa-check-circle"></i> Water-Way</li>
+                    </ul>
+                    
+                    <p class="kreepy-note" data-en="If you're looking for a Pool Cleaner, Kreepy Krauly is the one we recommend for inground pools." data-es="Si está buscando un limpiador de piscinas, Kreepy Krauly es el que recomendamos para piscinas enterradas.">If you're looking for a Pool Cleaner, Kreepy Krauly is the one we recommend for inground pools.</p>
+                    
+                    <div class="insurance-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <span data-en="Member of UPA INSURANCE" data-es="Miembro de UPA INSURANCE">Member of UPA INSURANCE</span>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="images/oscar-pool-commercial.png" alt="Oscar's Pool Service Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle" data-en="Professional pool maintenance and cleaning services" data-es="Servicios profesionales de mantenimiento y limpieza de piscinas">Professional pool maintenance and cleaning services</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3 data-en="Weekly Pool Service" data-es="Servicio Semanal de Piscina">Weekly Pool Service</h3>
+                    <p data-en="Complete pool maintenance including cleaning, vacuuming, and chemical balancing." data-es="Mantenimiento completo de piscina incluyendo limpieza, aspirado y balanceo químico.">Complete pool maintenance including cleaning, vacuuming, and chemical balancing.</p>
+                    <div class="service-price">
+                        <span class="price-from" data-en="Starting at" data-es="Desde">Starting at</span>
+                        <span class="price-amount">$165.00<span data-en="/month" data-es="/mes">/month</span></span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-filter"></i>
+                    </div>
+                    <h3 data-en="Filter Cleaning" data-es="Limpieza de Filtros">Filter Cleaning</h3>
+                    <p data-en="Professional filter cleaning service, recommended 3 times per year." data-es="Servicio profesional de limpieza de filtros, recomendado 3 veces al año.">Professional filter cleaning service, recommended 3 times per year.</p>
+                    <div class="service-price">
+                        <span class="price-from" data-en="Starting at" data-es="Desde">Starting at</span>
+                        <span class="price-amount">$95.00<span data-en="/cleaning" data-es="/limpieza">/cleaning</span></span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 data-en="Chemical Treatment" data-es="Tratamiento Químico">Chemical Treatment</h3>
+                    <p data-en="Annual chemical balance treatment at the beginning of summer season." data-es="Tratamiento anual de balance químico al inicio de la temporada de verano.">Annual chemical balance treatment at the beginning of summer season.</p>
+                    <div class="service-price">
+                        <span class="price-from" data-en="Starting at" data-es="Desde">Starting at</span>
+                        <span class="price-amount">$275.00<span data-en="/year" data-es="/año">/year</span></span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 data-en="Pool Repairs" data-es="Reparaciones de Piscina">Pool Repairs</h3>
+                    <p data-en="Equipment repair and replacement. Additional parts will be extra." data-es="Reparación y reemplazo de equipos. Piezas adicionales tendrán costo extra.">Equipment repair and replacement. Additional parts will be extra.</p>
+                    <div class="service-price">
+                        <span class="price-from" data-en="Contact for quote" data-es="Contacte para cotización">Contact for quote</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-swimming-pool"></i>
+                    </div>
+                    <h3 data-en="Spa Service" data-es="Servicio de Spa">Spa Service</h3>
+                    <p data-en="Specialized spa maintenance for inground spas. Fiberglass spas may have extra fees." data-es="Mantenimiento especializado de spas para spas enterrados. Spas de fibra de vidrio pueden tener costos adicionales.">Specialized spa maintenance for inground spas. Fiberglass spas may have extra fees.</p>
+                    <div class="service-price">
+                        <span class="price-from" data-en="Contact for pricing" data-es="Contacte para precios">Contact for pricing</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3 data-en="Remodeling & Construction" data-es="Remodelación y Construcción">Remodeling & Construction</h3>
+                    <p data-en="Complete pool remodeling and construction services. Transform your pool into a paradise." data-es="Servicios completos de remodelación y construcción de piscinas. Transforme su piscina en un paraíso.">Complete pool remodeling and construction services. Transform your pool into a paradise.</p>
+                    <div class="service-price">
+                        <span class="price-from" data-en="Free estimate" data-es="Estimado gratis">Free estimate</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-includes">
+                <h3 data-en="Our Service Includes:" data-es="Nuestro Servicio Incluye:">Our Service Includes:</h3>
+                <ul class="includes-list">
+                    <li><i class="fas fa-check"></i> <span data-en="Check chemicals, chlorine and acid" data-es="Verificar químicos, cloro y ácido">Check chemicals, chlorine and acid</span></li>
+                    <li><i class="fas fa-check"></i> <span data-en="Cleaning the surface" data-es="Limpieza de la superficie">Cleaning the surface</span></li>
+                    <li><i class="fas fa-check"></i> <span data-en="Vacuum the pool" data-es="Aspirar la piscina">Vacuum the pool</span></li>
+                    <li><i class="fas fa-check"></i> <span data-en="Brush walls and tiles (Calcium cleaning not included)" data-es="Cepillar paredes y azulejos (Limpieza de calcio no incluida)">Brush walls and tiles (Calcium cleaning not included)</span></li>
+                    <li><i class="fas fa-check"></i> <span data-en="Clean skimmer and pump baskets" data-es="Limpiar canastas de skimmer y bomba">Clean skimmer and pump baskets</span></li>
+                    <li><i class="fas fa-check"></i> <span data-en="Balance the chemicals" data-es="Balancear los químicos">Balance the chemicals</span></li>
+                    <li><i class="fas fa-check"></i> <span data-en="Once a month we balance the alkalinity" data-es="Una vez al mes balanceamos la alcalinidad">Once a month we balance the alkalinity</span></li>
+                </ul>
+            </div>
+            
+            <div class="service-areas">
+                <h3 data-en="Serving Areas:" data-es="Áreas de Servicio:">Serving Areas:</h3>
+                <p>Van Nuys, Lake Balboa, Valley Village, North Hollywood, Sherman Oaks, Studio City, Burbank, Encino</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Our Portfolio" data-es="Nuestro Portafolio">Our Portfolio</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle" data-en="See our latest work and satisfied customers" data-es="Vea nuestro trabajo más reciente y clientes satisfechos">See our latest work and satisfied customers</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-service-van-nuys-1.png" alt="Pool service Van Nuys" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-service-van-nuys-2.png" alt="Pool service Van Nuys" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-maintenance.png" alt="Pool maintenance" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-repair.png" alt="Pool repair" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-equipment.png" alt="Pool equipment" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-spa-service.png" alt="Spa service" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-chemicals.png" alt="Pool chemicals" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-vacuum.png" alt="Pool vacuum" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-brush.png" alt="Pool brush cleaning" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-skimmer.png" alt="Pool skimmer" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-filter.png" alt="Pool filter" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-construction.png" alt="Pool construction" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-residential.png" alt="Residential pool" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-team.jpg" alt="Machine pool" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-saltwater.png" alt="Saltwater pool" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-pump.png" alt="Pool pump" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-heater.png" alt="Pool heater" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-lighting.png" alt="Pool lighting" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-surface.png" alt="Pool surface" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-tile.png" alt="Pool tile" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-waterfall.png" alt="Pool waterfall" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-fountain.png" alt="Pool fountain" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/oscar-pool-landscape.png" alt="Pool landscape" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Customer Reviews" data-es="Reseñas de Clientes">Customer Reviews</h2>
+                <div class="title-divider"></div>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Ameen Behzadnia</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"My wife and I recently purchased a custom home in Los Angeles, which features a saltwater pool and spa. While researching the top pool contractors and maintenance professionals in the area, I came across Oscar's Pool Service Inc. From the very first message I sent—around 8:30 PM—Oscar responded promptly and professionally. He was incredibly informative and attentive to our needs."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Jacob Barzivand</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"I was introduced to oscar from a building i purchased and he was the vendor. I have nothing but amazing things to say about him and his company. He always responds very quickly, has good advice, and keeps the pool clean. i highly recommend him to anyone who needs pool service."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>marla johnson</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Oscar and his crew have always been responsive, knowledgeable, and kind. They also service my parent's pool and they have had the same experience. We used other pool services before Oscar and they could never keep our pool looking good, Oscar really knows what he's doing! We highly recommend!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Contact Us" data-es="Contáctenos">Contact Us</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle" data-en="Get your free estimate today" data-es="Obtenga su estimado gratis hoy">Get your free estimate today</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-en="Address" data-es="Dirección">Address</h4>
+                            <p>13806 Sherman Way, Van Nuys, CA 91405, United States</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-en="Phone" data-es="Teléfono">Phone</h4>
+                            <p><a href="tel:+18182611177">(818) 261-1177</a></p>
+                            <p><a href="tel:+13234705427">(323) 470-5427</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-en="Email" data-es="Correo">Email</h4>
+                            <p><a href="mailto:oscar@oscarspoolservice.com">oscar@oscarspoolservice.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-en="Business Hours" data-es="Horario de Atención">Business Hours</h4>
+                            <p data-en="Monday - Friday: 9:00 AM - 5:00 PM" data-es="Lunes - Viernes: 9:00 AM - 5:00 PM">Monday - Friday: 9:00 AM - 5:00 PM</p>
+                            <p data-en="Saturday - Sunday: Closed" data-es="Sábado - Domingo: Cerrado">Saturday - Sunday: Closed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-buttons">
+                        <h4 data-en="Follow Us" data-es="Síguenos">Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-en="Full Name" data-es="Nombre Completo">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" data-en="Email Address" data-es="Correo Electrónico">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" data-en="Phone Number" data-es="Número de Teléfono">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service" data-en="Service Interested In" data-es="Servicio de Interés">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="" data-en="Select a service" data-es="Seleccione un servicio">Select a service</option>
+                                <option value="weekly" data-en="Weekly Pool Service" data-es="Servicio Semanal de Piscina">Weekly Pool Service</option>
+                                <option value="filter" data-en="Filter Cleaning" data-es="Limpieza de Filtros">Filter Cleaning</option>
+                                <option value="chemical" data-en="Chemical Treatment" data-es="Tratamiento Químico">Chemical Treatment</option>
+                                <option value="repair" data-en="Pool Repairs" data-es="Reparaciones de Piscina">Pool Repairs</option>
+                                <option value="spa" data-en="Spa Service" data-es="Servicio de Spa">Spa Service</option>
+                                <option value="remodeling" data-en="Remodeling & Construction" data-es="Remodelación y Construcción">Remodeling & Construction</option>
+                                <option value="other" data-en="Other" data-es="Otro">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" data-en="Message" data-es="Mensaje">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span data-en="Send Message" data-es="Enviar Mensaje">Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Google Maps -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.567890123456!2d-118.45123456789012!3d34.20123456789012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3e7f8a1b2c3d4%3A0x1234567890abcdef!2s13806%20Sherman%20Way%2C%20Van%20Nuys%2C%20CA%2091405!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Oscar's Pool Service Location">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/oscars-pool-service-logo.png" alt="Oscar's Pool Service Logo">
+                    <h3>Oscar's Pool Service Inc</h3>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-en="Quick Links" data-es="Enlaces Rápidos">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-es="Inicio">Home</a></li>
+                        <li><a href="#about" data-en="About Us" data-es="Quiénes Somos">About Us</a></li>
+                        <li><a href="#services" data-en="Services" data-es="Servicios">Services</a></li>
+                        <li><a href="#portfolio" data-en="Portfolio" data-es="Portafolio">Portfolio</a></li>
+                        <li><a href="#contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4 data-en="Services" data-es="Servicios">Services</h4>
+                    <ul>
+                        <li data-en="Weekly Pool Service" data-es="Servicio Semanal de Piscina">Weekly Pool Service</li>
+                        <li data-en="Filter Cleaning" data-es="Limpieza de Filtros">Filter Cleaning</li>
+                        <li data-en="Chemical Treatment" data-es="Tratamiento Químico">Chemical Treatment</li>
+                        <li data-en="Pool Repairs" data-es="Reparaciones de Piscina">Pool Repairs</li>
+                        <li data-en="Remodeling & Construction" data-es="Remodelación y Construcción">Remodeling & Construction</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 data-en="Contact Info" data-es="Información de Contacto">Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 13806 Sherman Way, Van Nuys, CA 91405</p>
+                    <p><i class="fas fa-phone"></i> (818) 261-1177</p>
+                    <p><i class="fas fa-envelope"></i> oscar@oscarspoolservice.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> Oscar's Pool Service Inc. <span data-en="All Rights Reserved." data-es="Todos los Derechos Reservados.">All Rights Reserved.</span></p>
+                <p class="developer-credit">Developed by <a href="https://christian-freelance.us/" target="_blank">Christian Herencia</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/18182611177" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <!-- Portfolio Modal -->
+    <div class="modal" id="portfolioModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <img src="" alt="" id="modalImage">
+            </div>
+            <button class="modal-nav prev" id="modalPrev" aria-label="Previous image">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="modal-nav next" id="modalNext" aria-label="Next image">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
